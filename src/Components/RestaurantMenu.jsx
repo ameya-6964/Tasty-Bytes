@@ -30,7 +30,7 @@ const RestaurantMenu = () => {
     );
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-700 to-black">
+      <div className=" min-h-screen bg-gradient-to-r from-gray-700 to-black">
         <div className="text-center ">
           <h1 className="font-bold text-white text-2xl">{name}</h1>
           <p className="font-bold text-white text-lg">
@@ -39,7 +39,7 @@ const RestaurantMenu = () => {
           {/* Categories Accordian */}
           {categories.map((category, index) => (
             <RestaurantCategory
-              className="bg-gradient-to-r from-gray-700 to-black"
+              className="min-h-screen bg-gradient-to-r from-gray-700 to-black"
               key={category?.card?.card?.title}
               data={category?.card?.card}
               showItems={index === showIndex ? true : false}
