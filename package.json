@@ -2,7 +2,7 @@
   "name": "11-episode-12-lets-build-store",
   "version": "1.0.0",
   "description": "first project",
-  "main": "App.js",
+  "source": "index.html",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
